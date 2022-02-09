@@ -33,8 +33,7 @@
             (x-opcodes-regexp (regexp-opt x-opcodes 'words))
             (x-directives-regexp "\\.[a-z0-9_]*")
             (x-variable-regexp "[a-z0-9_]*")
-            (x-constant-regexp "[#$%<>]\\{1,2\\}[0-9a-f]*")
-         )
+            (x-constant-regexp "[#$%<>]\\{1,2\\}[0-9a-f]*"))
         `(
           ;(,x-types-regexp . font-lock-type-face)
           (,x-directives-regexp . font-lock-preprocessor-face)
